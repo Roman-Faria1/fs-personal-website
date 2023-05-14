@@ -1,0 +1,29 @@
+body {
+    background-image: url(images/lvwedding.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: 100% 15%;
+}
+
+#welcome-button {
+    max-height: 100%;
+    padding-top: 25%;
+    padding-left: 15%;
+}
+
+
+#name-button {
+    color: white;
+    cursor: pointer;
+    
+}
+
+#name-button:hover {
+    color: #a8dadc;
+}
+
+#landing-intro-text {
+    color: #f5ebe0;
+    font-style: italic;
+}

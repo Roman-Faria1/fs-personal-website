@@ -1,0 +1,142 @@
+#navbar-container {
+    background-color: #457B9D;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.container-fluid{
+    display: flex;
+}
+
+
+.navbar-brand {
+    width: 10%;
+    justify-content: center;
+}
+
+.navbar-nav {
+    justify-content: space-evenly;
+    flex-grow: 4;
+    
+}
+
+.nav-link {
+    color: #A8DADC;
+    
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+body {
+    background-color: #1D3557;
+    
+}
+
+#home-text {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5rem;
+}
+
+#welcome {
+    align-self: center;
+    padding: 2rem;
+}
+
+.intro-text {
+    align-content: center;
+    margin: 5%;
+    /* padding-left: 20%; */
+
+}
+
+#intro-image {
+    padding: 2%;
+    height: 60%;
+    width: 60%;
+}
+
+.content-container {
+    display: flex;
+    height: 100%;
+    flex-grow: 5;
+    height: auto;
+    background-color: #1D3557;
+}
+
+#sidebar {
+    flex-direction: column;
+     justify-content: end;
+     width: 45%;
+     padding-left: 25%;
+    
+     
+     
+}
+
+#cv-content {
+    width: 55%;
+    flex-direction: column;
+    
+}
+
+.content-container h2 {
+    color: white;
+    padding-top: 2rem;
+}
+
+.content-container h6 {
+    color: #F1FAEE;
+}
+
+.content-container p {
+    color: lightgray;
+}
+
+#cv-content p {
+    margin-right: 15%;
+}
+
+.experience {
+    display: flex;
+    
+}
+
+.experience {
+    margin: 10%;
+}
+
+.date {
+    color: azure;
+}
+
+#liftoff-container {
+    padding-top: 5%;
+}
+
+#knotel-container {
+    padding-top: 5%;
+}
+
+#utimaco-container {
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
